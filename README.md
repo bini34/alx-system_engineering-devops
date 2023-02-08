@@ -9,4 +9,6 @@ Tasks 7. Betty in my first directory
 Tasks 8. Bye bye Betty
 Tasks 9. Bye bye My first directory
 Tasks 10. Back to the future
-Tasks 11. Lists
+Tasks 11. List
+Tasks 12. File types
+Tasks 13. We are symbols, and inhabit symbols
