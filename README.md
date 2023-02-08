@@ -6,3 +6,6 @@ Tasks 4. Hidden file
 Tasks 5. I love numberss
 Tasks 6. Welcome
 Tasks 7. Betty in my first directory
+Tasks 8. Bye bye Betty
+Tasks 9. Bye bye My first directory
+
