@@ -15,3 +15,5 @@ Tasks 13. We are symbols, and inhabit symbols
 Tasks 14. Copy HTML files
 Tasks 15. Let’s move
 Tasks 16. Clean Emacs
+Tasks 17. Tree
+Tasks 18. Life is a series of commas, not periods
