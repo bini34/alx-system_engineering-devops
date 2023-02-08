@@ -17,3 +17,4 @@ Tasks 15. Let’s move
 Tasks 16. Clean Emacs
 Tasks 17. Tree
 Tasks 18. Life is a series of commas, not periods
+Tasks 19. File type: School
