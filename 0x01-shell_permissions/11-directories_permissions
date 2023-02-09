@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -r d711
+chmod -R +x .
