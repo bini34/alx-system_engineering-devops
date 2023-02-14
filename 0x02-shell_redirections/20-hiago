@@ -1,0 +1,2 @@
+#!/bin/bashh
+tr -d 'cC'
