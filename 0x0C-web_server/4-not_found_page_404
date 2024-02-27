@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create custom 404 page
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+# Configure nginx to use custom 404 page
+sed -i '/^server_name _;/a \\tlocation / {\n\t\ttry_files $uri $uri/ =404;\n\t}' /etc/nginx/sites-available/default
+
+# Restart nginx
+service nginx restart
