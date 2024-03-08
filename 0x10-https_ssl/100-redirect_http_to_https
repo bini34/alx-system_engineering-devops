@@ -10,14 +10,14 @@ defaults
 	timeout client  30s
 	timeout server  30s
 
-frontend th3gr00t-tech-frontend
+frontend biniyam-tech-frontend
 	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/th3gr00t.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/biniyam.tech.pem
 	http-request redirect scheme https code 301 unless { ssl_fc }
 	http-request set-header X-Forwarded-Proto https
-	default_backend th3gr00t-tech-backend
+	default_backend biniyam-tech-backend
 
-backend th3gr00t-tech-backend
+backend biniyam-tech-backend
 	balance roundrobin
 	server 225638-web-01 100.26.218.128:80 check
 	server 225638-web-02 54.166.140.251:80 check
