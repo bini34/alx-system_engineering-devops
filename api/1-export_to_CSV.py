@@ -1,6 +1,10 @@
 import requests
 import sys
 import csv
+"""
+export data in the CSV format.
+"""
+
 
 def export_employee_tasks_to_csv(employee_id):
 
@@ -19,7 +23,8 @@ def export_employee_tasks_to_csv(employee_id):
     with open(csv_filename, 'w', newline='') as csv_file:
         csv_writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
         for task in todos_data:
-            csv_writer.writerow([employee_id, username, task['completed'], task['title']])
+            csv_writer.writerow([employee_id, username,
+                                 task['completed'], task['title']])
 
 
 if __name__ == "__main__":
@@ -28,8 +33,7 @@ if __name__ == "__main__":
 
     try:
         employee_id = int(sys.argv[1])
-    except ValueError: 
+    except ValueError:
         sys.exit(1)
 
     export_employee_tasks_to_csv(employee_id)
-
